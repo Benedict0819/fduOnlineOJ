@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D1200B65-7014-489C-8BAE-7F35B98E7BD3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>九度</RootNamespace>
+    <ProjectName>九度</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1000.cpp" />
+    <ClCompile Include="1001.cpp" />
+    <ClCompile Include="1002.cpp" />
+    <ClCompile Include="1003.cpp" />
+    <ClCompile Include="1004.cpp" />
+    <ClCompile Include="1008.cpp" />
+    <ClCompile Include="1009.cpp" />
+    <ClCompile Include="1010.cpp" />
+    <ClCompile Include="1011.cpp" />
+    <ClCompile Include="1011_1.cpp" />
+    <ClCompile Include="1011_2.cpp" />
+    <ClCompile Include="1012.cpp" />
+    <ClCompile Include="1013.cpp" />
+    <ClCompile Include="1014.cpp" />
+    <ClCompile Include="1015.cpp" />
+    <ClCompile Include="1017.cpp" />
+    <ClCompile Include="1018.cpp" />
+    <ClCompile Include="1019.cpp" />
+    <ClCompile Include="1020.cpp" />
+    <ClCompile Include="1021.cpp" />
+    <ClCompile Include="1022.cpp" />
+    <ClCompile Include="1023.cpp" />
+    <ClCompile Include="1024.cpp" />
+    <ClCompile Include="1025.cpp" />
+    <ClCompile Include="1026.cpp" />
+    <ClCompile Include="1027.cpp" />
+    <ClCompile Include="1028.cpp" />
+    <ClCompile Include="1028_1.cpp" />
+    <ClCompile Include="1032.cpp" />
+    <ClCompile Include="1031.cpp" />
+    <ClCompile Include="1033.cpp" />
+    <ClCompile Include="1034.cpp" />
+    <ClCompile Include="1035.cpp" />
+    <ClCompile Include="1045.cpp" />
+    <ClCompile Include="1046.cpp" />
+    <ClCompile Include="1047.cpp" />
+    <ClCompile Include="1048.cpp" />
+    <ClCompile Include="1049.cpp" />
+    <ClCompile Include="1050.cpp" />
+    <ClCompile Include="1051.cpp" />
+    <ClCompile Include="1052.cpp" />
+    <ClCompile Include="1053.cpp" />
+    <ClCompile Include="1054.cpp" />
+    <ClCompile Include="1055.cpp" />
+    <ClCompile Include="1056.cpp" />
+    <ClCompile Include="1057.cpp" />
+    <ClCompile Include="1058.cpp" />
+    <ClCompile Include="1059.cpp" />
+    <ClCompile Include="1060.cpp" />
+    <ClCompile Include="1061.cpp" />
+    <ClCompile Include="1062.cpp" />
+    <ClCompile Include="1063.cpp" />
+    <ClCompile Include="1064.cpp" />
+    <ClCompile Include="1065.cpp" />
+    <ClCompile Include="1066.cpp" />
+    <ClCompile Include="1067.cpp" />
+    <ClCompile Include="1068.cpp" />
+    <ClCompile Include="1069.cpp" />
+    <ClCompile Include="1070.cpp" />
+    <ClCompile Include="1072.cpp" />
+    <ClCompile Include="1073.cpp" />
+    <ClCompile Include="1074.cpp" />
+    <ClCompile Include="1075.cpp" />
+    <ClCompile Include="1076.cpp" />
+    <ClCompile Include="1077.cpp" />
+    <ClCompile Include="1078.cpp" />
+    <ClCompile Include="1079.cpp" />
+    <ClCompile Include="1080.cpp" />
+    <ClCompile Include="1081.cpp" />
+    <ClCompile Include="1082.cpp" />
+    <ClCompile Include="1083.cpp" />
+    <ClCompile Include="1084.cpp" />
+    <ClCompile Include="1085.cpp" />
+    <ClCompile Include="1086.cpp" />
+    <ClCompile Include="1087.cpp" />
+    <ClCompile Include="1089.cpp" />
+    <ClCompile Include="1099.cpp" />
+    <ClCompile Include="1105.cpp" />
+    <ClCompile Include="1101.cpp" />
+    <ClCompile Include="1106.cpp" />
+    <ClCompile Include="1107.cpp" />
+    <ClCompile Include="1108.cpp" />
+    <ClCompile Include="1109.cpp" />
+    <ClCompile Include="1110.cpp" />
+    <ClCompile Include="1111.cpp" />
+    <ClCompile Include="1112.cpp" />
+    <ClCompile Include="1113.cpp" />
+    <ClCompile Include="1114.cpp" />
+    <ClCompile Include="1115.cpp" />
+    <ClCompile Include="1116.cpp" />
+    <ClCompile Include="1117.cpp" />
+    <ClCompile Include="1118.cpp" />
+    <ClCompile Include="1120.cpp" />
+    <ClCompile Include="1120_1.cpp" />
+    <ClCompile Include="1122.cpp" />
+    <ClCompile Include="1123.cpp" />
+    <ClCompile Include="1172.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

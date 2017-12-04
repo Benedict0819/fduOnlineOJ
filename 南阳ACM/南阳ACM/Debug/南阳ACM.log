@@ -1,0 +1,11 @@
+﻿生成启动时间为 2017/3/17 21:10:43。
+     1>项目“C:\Users\Administrator\Desktop\复试准备\南阳ACM\南阳ACM\南阳ACM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "19_擅长排列的小明.cpp"
+         19_擅长排列的小明.cpp
+     1>c:\users\administrator\desktop\复试准备\南阳acm\南阳acm\19_擅长排列的小明.cpp(23): error C4716: “dfs”: 必须返回一个值
+     1>已完成生成项目“C:\Users\Administrator\Desktop\复试准备\南阳ACM\南阳ACM\南阳ACM.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.71
